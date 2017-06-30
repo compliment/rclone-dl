@@ -1,8 +1,4 @@
-HEIGHT=15
-WIDTH=60
-CHOICE_HEIGHT=7
-BACKTITLE=" Script by DEDS3C"
-TITLE="rclone Installer "
+#!/bin/sh
 MENU="Choose one of the following options:"
 
 OPTIONS=(1 "Install rclone FreeBSD i386"
