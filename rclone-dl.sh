@@ -8,11 +8,12 @@
             
             cd rclone-*-linux-amd64
             cp rclone /usr/bin/
-            sudo chown $USER:$USER /usr/bin/rclone
-            sudo chmod 755 /usr/bin/rclone
+             chown $USER:$USER /usr/bin/rclone
+             chmod 755 /usr/bin/rclone
              echo "Assuming finished installing rclone"
              
              echo "Attempting installing youtube-dl from rg3/youtube-dl"             
-            sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
-            sudo chmod a+rx /usr/local/bin/youtube-dl
-      esac
+             wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+             chmod a+rx /usr/local/bin/youtube-dl
+
+                          echo "I guess I'm done!" 
