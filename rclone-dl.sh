@@ -1,5 +1,7 @@
 #!/bin/sh
-
+             
+             echo "Installing unzip"
+             apt install unzip
             echo "Installing rclone Linux AMD64"
             rm -rf rclone*.zip
             bash <(curl -Ss https://raw.githubusercontent.com/compliment/rclone-dl/master/rclone.sh) ncw/rclone linux-amd64 zip
