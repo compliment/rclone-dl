@@ -13,9 +13,4 @@
              chown $USER:$USER /usr/bin/rclone
              chmod 755 /usr/bin/rclone
              echo "Assuming finished installing rclone"
-             
-             echo "Attempting installing youtube-dl from rg3/youtube-dl"             
-             wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
-             chmod a+rx /usr/local/bin/youtube-dl
-
-                          echo "I guess I'm done!" 
+             echo "I guess I'm done!" 
